@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Scripted Page</title>
+	</head>
+	<body>
+	<script>
+		function sum (x,y){
+			var z=x+y;
+			document.write("Sum is:"+z);
+		}
+		var a=prompt("Enter your first number:");
+		var b=prompt("Enter your second number:");
+		sum(Number(a),Number(b));
+		var arr=[];
+		var i=0;
+		for(i=0;i<5;i++)
+		{
+			arr[i]=prompt("Enter a value:");
+		}
+		var large=0;
+		for(i=0;i<5;i++)
+		{
+			if(large<arr[i]){
+				large=arr[i];
+			}
+		}
+		document.write("The largest is:"+large);
+	</script>
+	</body>
+</html>

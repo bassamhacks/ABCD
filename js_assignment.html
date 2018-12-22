@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Assignment 1</title>
+	</head>
+	<body>
+	<script>
+		function readArr(){
+			var arr=[];
+			var i=0;
+			var flag=0;
+			for(i=0;i<5;i++)
+			{
+				arr[i]=prompt("Enter a value:");
+			}
+			for(i=2;i<arr[0];i++)
+			{
+				if(arr[0]/i==0)
+				{
+					flag=1;
+					break;
+				}
+			}
+			if(flag==1){document.write("The number is not prime.")}
+			else{document.write("The number is prime.")}
+		}
+		readArr();
+	</script>
+	</body>
+</html>

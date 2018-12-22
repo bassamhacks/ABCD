@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <style>
+            label.a1{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: rgb(7, 76, 224);
+                }
+            a{
+                text-decoration: none
+            }
+            label{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: rgb(236, 67, 194);
+                }
+            .color{
+                color: blueviolet;
+            }
+        </style>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 style="color:deeppink;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Forms </h1>
+
+        <hr>
+        <br>
+        <form action="new.php" method="POST">
+            <div class="g">
+           <label class="color"> Name: <input type="text" name="name" id="" placeholder="Enter your name"><br></label><br>
+           <label >Address: <textarea name="" id="" cols="30" rows="10" placeholder="Enter your address"></textarea></label><br>
+           <label >Gender: <input type="radio" name="gender">Male <input type="radio" name="gender">Female</label><br>
+           <label class="a1">State: <input type="checkbox" name="" id=""> Kerala 
+            <input type="checkbox" name="tn" id="" >Tamil Nadu
+            <input type="checkbox" name="karnataka" id="">Karnataka
+            </label><br></div>
+            <div class="r">
+            <label> Occupation: <select name="" id="">
+                <option value="">Self Employed</option>
+                <option value="">Driver</option>
+                <option value="">Teacher</option>
+            </select> </label><br>
+            <label >Password: <input type="password" name="password" id=""></label><br>
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+            </div>
+
+           
+        </form>
+        <a href="first.html">Click here</a>
+    </body>
+</html>

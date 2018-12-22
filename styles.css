@@ -1,0 +1,28 @@
+hr{
+    color: blue;
+}
+h1{
+    color: rgb(5, 18, 202)
+}
+li{
+    color: coral;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+body{
+    background-color: rgba(220, 221, 171, 0.829);
+}
+label.a1{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(231, 247, 11);
+    }
+a{
+    text-decoration: none
+}
+label{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(52, 240, 6);
+    }
+.color{
+    color: rgb(18, 230, 245);
+}
+div.g{background-color: blueviolet}
+div.r{background-color: crimson}

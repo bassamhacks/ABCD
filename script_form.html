@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Script Form</title>
+        <script type="text/javascript">
+            function cube(){
+                var num=document.getElementById("number").value;
+                alert("The cube is "+ num*num*num);
+            }
+        
+        </script>
+    </head>
+    <body>
+        <form action="">
+            <input type="number" name="number" id="number" placeholder="Enter a number"><br>
+            <button type="submit" onclick="cube()">Submit</button>
+        </form>
+    </body>
+</html>
